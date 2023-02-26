@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Star
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: 咋还没吃饭呢
+subtitle: '不闻不若闻之 闻之不若见之 见之不若知之 知之不若行之'
+description: '努力变得丰满ing'
+keywords: '博客,咋还没吃饭呢,黄昏见证虔诚的信徒'
+author: 橙橙
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -103,3 +103,13 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# abbrlink config
+abbrlink:
+  alg: crc32      #support crc16(default) and crc32
+  rep: hex        #support dec(default) and hex
+
+search:
+  path: search.xml
+  field: all
+  content: true
