@@ -529,7 +529,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(http://p2.qhimg.com/bdr/__85/t019ca75cd449be50c1.jpg)
 
 # Footer Background
 footer_bg: false
@@ -889,6 +889,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    # 自定义css
+    - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
