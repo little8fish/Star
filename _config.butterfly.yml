@@ -1055,7 +1055,7 @@ electric_clock:
   qweather_key: 339ade4dd14e42c7822cb62a8aeb028f # 和风天气key
   gaud_map_key: fa902028eba7e1af60e8bf3b446da9fa # 高得地图web服务key
   default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
-  rectangle: 28.660629819198284, 115.82022655486941 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
+  rectangle: 115.8202265,28.6606298 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
 
 
 # footer_beautify
