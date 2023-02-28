@@ -358,7 +358,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: http://comment.dengjiacheng.site/
+  envId: https://twikoo-cyan-chi.vercel.app/
   region:
   visitor: false
   option:
