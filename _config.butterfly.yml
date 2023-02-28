@@ -5,7 +5,7 @@
 menu:
   Home: / || fas fa-home
   留言板: /comments/ || fas fa-envelope
-  # Archives: /archives/ || fas fa-archive
+  Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
   # List||fas fa-list:
@@ -631,7 +631,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
@@ -646,6 +646,7 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - 听闻远方有你，动身跋涉千里
 
 # Loading Animation (加載動畫)
 preloader:
