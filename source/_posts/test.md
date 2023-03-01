@@ -2,7 +2,9 @@
 title: linux多线程开发——线程创建
 abbrlink: 96eac476
 date: 2023-02-25 21:00:06
-tags:
+tags: [test]
+categories: 测试
+cover: https://images.pexels.com/photos/163016/crash-test-collision-60-km-h-distraction-163016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 ---
 
 
