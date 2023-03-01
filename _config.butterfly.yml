@@ -891,6 +891,7 @@ css_prefix: true
 inject:
   head:
     # 自定义css
+    - <meta name="baidu-site-verification" content="codeva-6JitrhJrC5" />
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:

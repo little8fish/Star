@@ -6,7 +6,7 @@
 title: 咋还没吃饭呢
 subtitle: '不闻不若闻之 闻之不若见之 见之不若知之 知之不若行之'
 description: '努力变得丰满ing'
-keywords: '博客,咋还没吃饭呢,黄昏见证虔诚的信徒'
+keywords: '博客,linux,学习记录,c++,深度学习'
 author: 橙橙
 language: zh-CN
 timezone: ''
@@ -102,7 +102,8 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  - type: ''
+  - type: baidu_url_submitter
 
 # abbrlink config
 abbrlink:
@@ -131,3 +132,38 @@ live2d:
     height: 300 #控制看板娘大小
   mobile:
     show: false # 手机中是否展示
+  
+# https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+# https://github.com/coneycode/hexo-generator-baidu-sitemap
+baidusitemap:
+    path: baidusitemap.xml
+
+# https://github.com/hexojs/hexo-generator-feed
+#Feed Atom
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+rss: /atom.xml
+
+# Extensions
+plugins:
+    - hexo-generator-feed
+    - hexo-generator-baidu-sitemap
+    - hexo-generator-sitemap
+
+
+# 百度主动推送
+# https://github.com/huiwang/hexo-baidu-url-submit
+baidu_url_submit:
+  count: 1        # 提交最新的多少个链接
+  host: dengjiacheng.site  # 在百度站长平台中添加的域名
+  # 待修改
+  token: Rgem9kAECSLflQq6   # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
