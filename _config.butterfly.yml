@@ -910,6 +910,7 @@ inject:
     # 自定义css
     - <meta name="baidu-site-verification" content="codeva-6JitrhJrC5" />
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <meta name="sogou_site_verification" content="apVqpWVabg" />
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
