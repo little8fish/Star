@@ -6,7 +6,11 @@ tags: [linux,server,thread,process]
 categories: 阅读记录
 cover: https://images.pexels.com/photos/163016/crash-test-collision-60-km-h-distraction-163016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 ---
-
+1. 在/etc/services中可以看到协议对应的端口号
+2. arp命令可以查看修改ARP高速缓存
+3. /etc/resolv.conf用来存放DNS服务器的IP地址
+4. host命令用于查询主机ip
+5. ip协议特点：无状态、无连接、不可靠
 ### <center>1. 线程创建<center>
 ```c++
 #include <stdio.h>
