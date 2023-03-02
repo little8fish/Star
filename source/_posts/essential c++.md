@@ -2,9 +2,9 @@
 title: essential_c++
 abbrlink: 21be6370
 date: 2023-03-02 10:27:03
-tags:
-categories:
-cover:
+tags: [essential c++]
+categories: 阅读记录
+cover: https://images.unsplash.com/photo-1677613935629-5de03180c113?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80
 ---
 {% note info simple %}
 1. 局部对象以传值方式返回，便不会产生任何问题，因为返回的是对象的副本；局部对象以pointer或reference返回，都不正确。
@@ -20,4 +20,5 @@ cover:
 11. 函数的定义只能有一份，不过可以有许多份声明；我们不把函数的定义放入头文件，因为同一个程序的多个代码文件可能都会包含这个头文件
 12. “只定义一份”有个例外，inline函数的定义。为了能够扩展inline函数的内容，在每个调用点上，编译器都得取得其定义。这意味着我们必须将inline函数的定义放在头文件中
 13. 如果文件被认定为标准的或项目专属的头文件，便以尖括号将文件名括住；编译器搜索此文件时，会现在某些默认的磁盘目录中寻找。若果文件名由成对的双引号括住，比文件便被认为是一个用户提供的头文件；搜索此文件时，会由要包含此文件的文件所在的磁盘目录中开始找起
+14. const object的定义只要一出文件之外便不可见
 {% endnote %}
