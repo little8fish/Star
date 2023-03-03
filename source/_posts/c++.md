@@ -1,5 +1,5 @@
 ---
-title: essential_c++
+title: c++
 abbrlink: 21be6370
 date: 2023-03-02 10:27:03
 tags: [essential c++]
