@@ -2,6 +2,7 @@
 title: c++
 abbrlink: 21be6370
 date: 2023-03-02 10:27:03
+top: 1
 tags: [essential c++]
 categories: 阅读记录
 cover: https://images.unsplash.com/photo-1677613935629-5de03180c113?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80
